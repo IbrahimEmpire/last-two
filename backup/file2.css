@@ -1,0 +1,39 @@
+body{
+    background-image: url('https://cdn.pixabay.com/photo/2018/08/23/07/35/thunderstorm-3625405__480.jpg');
+    background-size: 100%;
+    display: flex;
+}
+.cont2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+#btn{
+    margin: 2px solid black;
+    display: block;
+}
+#secondOp{
+   margin: 20px;
+}
+#firstOp{
+    margin: 20px;  
+}
+
+  .op{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #thirdOp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:15px;
+    padding:15px;
+  }
+  #gapOp{
+    height: 30px;
+    width: max-content;
+    background-color: brown;
+  }
